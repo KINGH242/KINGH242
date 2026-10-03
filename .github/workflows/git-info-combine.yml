@@ -31,5 +31,12 @@ jobs:
         with:
           github-token: ${{ secrets.GIC_GITHUB_TOKEN }}
           gitlab-token: ${{ secrets.GIC_GITLAB_TOKEN }}
-          cards: heatmap,stats,languages
+          wakatime-api-key: ${{ secrets.GIC_WAKATIME_KEY }}
+          cards: heatmap,stats,languages,wakatime,pins
           languages-hide: Untyped Plutus Core
+          wakatime-hide: Other
+          pins: |
+            KINGH242/pccontext
+            Kingpin-Apps/swift-cardano-core
+            Kingpin-Apps/swift-cardano-multitool
+            Kingpin-Apps/swift-package-compat-check

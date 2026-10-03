@@ -18,16 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      # Git-info-combine is private for now, so check it out with the token
-      # and run it from a local path. Once it is public, replace these two
-      # steps with: uses: Kingpin-Apps/git-info-combine@v1
-      - uses: actions/checkout@v7
-        with:
-          repository: Kingpin-Apps/git-info-combine
-          token: ${{ secrets.GIC_GITHUB_TOKEN }}
-          path: .git-info-combine
-          persist-credentials: false
-      - uses: ./.git-info-combine
+      - uses: Kingpin-Apps/git-info-combine@v1
         with:
           github-token: ${{ secrets.GIC_GITHUB_TOKEN }}
           gitlab-token: ${{ secrets.GIC_GITLAB_TOKEN }}

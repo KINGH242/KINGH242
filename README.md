@@ -1,16 +1,17 @@
 ## Hi there 👋
 
-<!--
-**KINGH242/KINGH242** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="git-info-combine/heatmap-dark.svg">
+  <img alt="Contributions on GitHub and GitLab" src="git-info-combine/heatmap-light.svg">
+</picture>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="git-info-combine/stats-dark.svg">
+    <img alt="Git stats across GitHub and GitLab" src="git-info-combine/stats-light.svg">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="git-info-combine/languages-dark.svg">
+    <img alt="Most used languages across GitHub and GitLab" src="git-info-combine/languages-light.svg">
+  </picture>
+</p>

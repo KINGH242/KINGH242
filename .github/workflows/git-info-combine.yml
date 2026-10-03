@@ -23,7 +23,12 @@ jobs:
           github-token: ${{ secrets.GIC_GITHUB_TOKEN }}
           gitlab-token: ${{ secrets.GIC_GITLAB_TOKEN }}
           wakatime-api-key: ${{ secrets.GIC_WAKATIME_KEY }}
-          cards: heatmap,stats,languages,wakatime,pins
+          cards: heatmap,stats,languages,hosts,wakatime,pins
+          layout: |
+            heatmap
+            stats languages
+            wakatime hosts
+            pins
           languages-hide: Untyped Plutus Core
           wakatime-hide: Other
           pins: |
